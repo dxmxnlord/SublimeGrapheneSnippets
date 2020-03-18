@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1} = ${2}
+def resolve_${1/\*//}(self,info,**kwargs):
+${3:	body}
+]]></content>
+	<tabTrigger>sg.aq</tabTrigger>
+	<description>Graphene Add Query</description>
+	<scope>source.python</scope>
+</snippet>

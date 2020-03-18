@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Model}Type(DjangoObjectType):
+	class Meta:
+		model=${1/\*//}
+${2:		fields = }
+${3:		except = }
+${4:		filter_fields = }
+]]></content>
+	<tabTrigger>sg.dot</tabTrigger>
+	<description>Graphene Django Object</description>
+	<scope>source.python</scope>
+</snippet>

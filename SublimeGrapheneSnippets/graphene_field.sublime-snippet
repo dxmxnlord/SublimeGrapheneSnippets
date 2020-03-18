@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+graphene.Field(${1:Object}${2:required=}${3:,name=})
+]]></content>
+	<tabTrigger>sg.gf</tabTrigger>
+	<description>Graphene Field</description>
+	<scope>source.python</scope>
+</snippet>

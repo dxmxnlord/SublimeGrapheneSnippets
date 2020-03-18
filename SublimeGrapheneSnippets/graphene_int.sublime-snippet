@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+graphene.Int(${1:required=}${2:,name=})
+]]></content>
+	<tabTrigger>sg.gi</tabTrigger>
+	<description>Graphene Int</description>
+	<scope>source.python</scope>
+</snippet>

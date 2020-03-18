@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+class ${1:Name}(graphene.Mutation):
+	class Arguments:
+${2:		args}
+
+	def mutate(self,info,**kwargs):
+${4:		body}
+]]></content>
+	<tabTrigger>sg.mc</tabTrigger>
+	<description>Mutation Class</description>
+	<scope>source.python</scope>
+</snippet>

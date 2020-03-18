@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+graphene.List(${1:Object}${2:required=}${3:,name=})
+]]></content>
+	<tabTrigger>sg.gl</tabTrigger>
+	<description>Graphene List</description>
+	<scope>source.python</scope>
+</snippet>
